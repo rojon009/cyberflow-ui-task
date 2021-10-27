@@ -8,8 +8,8 @@ const Footer = () => {
   return (
     <div className='bg-primary py-5 text-white  '>
       <div className="container">
-        <div className="row row-cols-1 row-cols-md-3 row-cols-lg-5">
-          <div className="d-flex flex-column align-items-center mb-4">
+        <div className="row row-cols-lg-5">
+          <div className="d-flex col-12 flex-column align-items-center mb-4">
             <img className="mb-2" style={{height: '60px'}} src={Logo} alt="logo" />
             <span className="mb-2">Follow Us</span>
             <div>
