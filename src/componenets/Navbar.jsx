@@ -26,13 +26,19 @@ const Navbar = () => {
             <li className="nav-item">
               <a className="nav-link" href="#d">Group/Corporate</a>
             </li>
+            <li className="nav-item">
+              <a href="/" className="nav-link">Contact Us</a>
+            </li>
+            <li className="nav-item">
+              <button className="btn btn-primary ms-2">Host with Us</button>
+            </li>
+            <li className="nav-item">
+              <CgProfile className="ms-2" style={{width: '32px', height: '32px'}} />
+            </li>
+            <li className="nav-item">
+              <CgMenuRound className="ms-2" style={{width: '35px', height: '35px'}} />
+            </li>
           </ul>
-          <div>
-            <a className="text-decoration-none fw-bold text-black" href="#d">Contact Us</a>
-            <button className="btn btn-primary ms-2">Host with Us</button>
-            <CgProfile className="ms-2" style={{width: '32px', height: '32px'}} />
-            <CgMenuRound className="ms-2" style={{width: '35px', height: '35px'}} />
-          </div>
         </div>
       </div>
     </nav>
