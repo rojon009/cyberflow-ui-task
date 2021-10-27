@@ -13,10 +13,10 @@ const Footer = () => {
             <img className="mb-2" style={{height: '60px'}} src={Logo} alt="logo" />
             <span className="mb-2">Follow Us</span>
             <div>
-              <IoLogoFacebook style={{width: '30px', height: '30px'}} />
-              <IoLogoTwitter style={{width: '30px', height: '30px'}} />
-              <IoLogoInstagram style={{width: '30px', height: '30px'}} />
-              <IoLogoPinterest style={{width: '30px', height: '30px'}} />
+              <IoLogoFacebook className="mx-2" style={{width: '30px', height: '30px'}} />
+              <IoLogoTwitter className="mx-2" style={{width: '30px', height: '30px'}} />
+              <IoLogoInstagram className="mx-2" style={{width: '30px', height: '30px'}} />
+              <IoLogoPinterest className="mx-2" style={{width: '30px', height: '30px'}} />
             </div>
           </div>
           <FooterLinkList />

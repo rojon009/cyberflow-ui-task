@@ -4,7 +4,7 @@ import AccordionList from './AccordionList';
 const FaqSection = () => {
   return (
     <div style={{backgroundColor: "#EFEFEF"}}>
-      <h3 className="text-uppercase text-center mx-auto py-4">Faq's</h3>
+      <h3 className="text-uppercase text-center mx-auto py-5">Faq's</h3>
 
       <div className="row">
         <div className="col-9 mx-auto">
