@@ -10,7 +10,8 @@ const Navbar = () => {
           <span className="navbar-toggler-icon" />
         </button>
         <a className="navbar-brand" href="#a">
-          <img src={Logo} style={{height: "80px"}} alt="Logo" />
+          {/* <img src={Logo} style={{height: "80px"}} alt="Logo" /> */}
+          Navbar
         </a>
         <div className="collapse navbar-collapse" id="navbarTogglerDemo03">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 fs-6 fw-bold">

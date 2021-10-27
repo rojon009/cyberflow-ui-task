@@ -2,7 +2,7 @@ import React from 'react';
 
 const FooterLinkList = () => {
   return (
-    <div className="col-12 col-md-6 d-flex flex-column align-items-center align-items-md-start mb-4">
+    <div className="col-6 d-flex flex-column mb-4">
       <span className="fw-bold">Link Header</span>
       <a className="text-white text-decoration-none" href="#a">Example One</a>
       <a className="text-white text-decoration-none" href="#a">Example Two</a>
